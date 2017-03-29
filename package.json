@@ -1,0 +1,18 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "项目测试",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^2.1.2"
+  },
+  "devDependencies": {
+    "gulp-concat": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "大哥",
+  "license": "ISC"
+}

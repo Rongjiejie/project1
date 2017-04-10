@@ -1,0 +1,318 @@
+@charset "UTF-8";
+/*
+	变量正常情况下只能用在属性值中
+ */
+.listWrap {
+  position: relative;
+  width: 1104px;
+  margin: 50px auto;
+  text-align: left;
+  font-size: 14px;
+}
+
+.listWrap .opertaion {
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid #EAEAEA;
+}
+
+.listWrap .m-filter {
+  background-color: #fff;
+}
+
+.listWrap .m-filter .hdorder {
+  height: 36px;
+  background-color: #fff;
+}
+
+.listWrap .m-filter dd {
+  float: left;
+  width: 76px;
+  height: 36px;
+  line-height: 36px;
+  margin: -1px;
+  margin-left: 0;
+  font-size: 13px;
+  color: #333;
+  border: 1px solid #eaeaea;
+  cursor: pointer;
+  text-align: center;
+}
+
+.listWrap .m-filter .active {
+  position: relative;
+  border: 1px solid #E31436;
+  color: #E31436;
+}
+
+.listWrap .m-priceBox:hover .btn {
+  display: inline-block;
+}
+
+.listWrap .m-priceBox {
+  position: relative;
+  float: left;
+  width: 190px;
+  height: 36px;
+  line-height: 36px;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.listWrap .m-priceBox .ipt {
+  width: 48px;
+  line-height: 18px;
+  padding-left: 5px;
+  border: 1px solid #ddd;
+}
+
+.listWrap .m-priceBox .btn {
+  display: none;
+  line-height: 16px;
+  margin-left: 8px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  color: #fff;
+  background: #E31436;
+  border: 0;
+  cursor: pointer;
+}
+
+.listWrap .m-addrbox {
+  float: left;
+  height: 36px;
+}
+
+.listWrap .m-addrbox .tit {
+  float: left;
+  height: 36px;
+  line-height: 36px;
+  font-size: 12px;
+}
+
+.listWrap .m-addrw {
+  display: inline-block;
+  font-size: 0;
+  vertical-align: middle;
+}
+
+.listWrap .addrselect {
+  float: left;
+  margin: 6px 0 0 10px;
+}
+
+.listWrap .m-addr {
+  position: relative;
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+}
+
+.listWrap .m-addr .iptw {
+  position: relative;
+  display: inline-block;
+  height: 18px;
+  line-height: 18px;
+  width: auto;
+  padding: 0 5px;
+  vertical-align: middle;
+  text-align: left;
+  border: 1px solid #cccccc;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.listWrap .m-addr .iptmsg {
+  width: 114px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.listWrap .m-addr .iptdown {
+  font-family: "iconfont";
+  font-size: 11px;
+  color: #666666;
+}
+
+.listWrap .m-checkbox {
+  position: relative;
+  float: left;
+  margin-left: 15px;
+  line-height: 36px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.listWrap .m-checkbox em {
+  position: absolute;
+  top: 12px;
+  left: 0px;
+  width: 13px;
+  height: 13px;
+  font-size: 16px;
+  text-indent: -9999px;
+  border: 1px solid #ddd;
+  color: transparent;
+}
+
+.listWrap .m-checkbox span, .listWrap .m-checkbox .simplePage a, .listWrap .simplePage .m-checkbox a {
+  margin-left: 10px;
+}
+
+.listWrap .simplePage {
+  float: right;
+  margin-right: 15px;
+  margin-top: 12px;
+  line-height: 12px;
+}
+
+.listWrap .simplePage span, .listWrap .simplePage a {
+  display: inline-block;
+  float: left;
+  margin-left: 20px;
+}
+
+.listWrap .m-result {
+  margin-bottom: 6px;
+}
+
+.listWrap .m-result .marketprice {
+  float: right;
+  color: #999;
+  line-height: 24px;
+}
+
+.listWrap .m-result .goods {
+  position: relative;
+  float: left;
+  width: 262px;
+  height: 387px;
+  margin: 0 7px 14px;
+  font-size: 12px;
+}
+
+.listWrap .m-result .goods .desc {
+  width: 234px;
+  padding: 0 14px 11px;
+}
+
+.listWrap .m-result .goods .comments {
+  float: left;
+  position: relative;
+  display: inline-block;
+  padding-left: 30px;
+  color: #333;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.listWrap .m-result .goods .comments .icon {
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  width: 12px;
+  height: 14px;
+  background: url(../img/icon-new.png);
+  background-position: 0 -230px;
+}
+
+.listWrap .m-result .goods .proPlace {
+  float: right;
+  max-width: 110px;
+  color: #999;
+}
+
+.listWrap .m-result .goods .price {
+  height: 24px;
+  color: #E31436;
+}
+
+.listWrap .m-result .goods .price i {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.listWrap .m-result .goods .price .cur {
+  display: inline-block;
+  margin-right: 2px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.listWrap .m-result .goods .price .combinedLabel {
+  position: relative;
+  top: -4px;
+  display: inline-block;
+  padding: 0 4px;
+  border: 1px dotted #E31436;
+  font-size: 12px;
+  color: #E31436;
+  font-weight: bold;
+  line-height: 18px;
+}
+
+.listWrap .m-result .goods .title {
+  height: 40px;
+  margin-top: 5px;
+  overflow: hidden;
+  font-size: 13px;
+  line-height: 20px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.listWrap .m-result .goods a {
+  display: block;
+  color: #333;
+}
+
+.listWrap .m-result .goods a:hover {
+  color: #E31436;
+  text-decoration: underline;
+}
+
+.listWrap .m-result .goodsinfo {
+  margin-top: 10px;
+}
+
+.listWrap .m-result .goodswrap {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  background-color: #fff;
+  border: 1px solid #f3f3f3;
+  border-bottom: none;
+}
+
+.listWrap .m-result .goods:hover .goodswrap {
+  border: 1px solid #E31436;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.listWrap .m-result img {
+  position: relative;
+}
+
+.listWrap .selfflag {
+  margin-top: 4px;
+}
+
+.listWrap .selfflag a {
+  width: 234px;
+  height: 18px;
+  color: #666;
+  text-decoration: underline;
+  overflow: hidden;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.listWrap .selfflag .shoptaglogo {
+  margin-right: 5px;
+  width: 16px;
+  height: 16px;
+  vertical-align: sub;
+}

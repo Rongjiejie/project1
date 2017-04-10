@@ -1,0 +1,395 @@
+.all {
+    background: #fff;
+    
+    .fixFooter {
+    position: fixed !important;
+    bottom: 40%;
+    right: 0;
+    z-index: 1000;
+}
+}
+   #showImgBox img {
+    width: 400px;
+    height: 400px;
+}
+.f-fl {
+    float: left;
+}
+.mainWrap {
+    width: 1090px;
+    font-size: 14px;
+    margin: 0 auto;
+    z-index: 9;
+    border-top: 1px solid #E8E8E8;
+    position: relative;
+    padding: 10px 0 0;
+    .active{
+                border: 3px solid #F5345E;  
+            }
+    .crumbs {
+        color: #999;
+        margin-top: 0;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #DDD;
+        font-size: 13px;
+        margin-bottom: 40px;
+        line-height: 16px;
+        span.crumbs-title {
+            display: inline-block;
+            max-width: 500px;
+            color: #999;
+            vertical-align: middle;
+        }
+    }
+    .m-shopname {
+        float: right;
+        color: #666;
+        font-size: 0;
+        .u-jxtag {
+            margin-right: 4px;
+            padding: 1px 0;
+            width: 16px;
+            height: 16px;
+            cursor: pointer;
+        }
+    }
+    .PImgBox {
+        float: left;
+        width: 402px;
+        height: 488px;
+        position: relative;
+        display: inline;
+        z-index: 1000;
+    }
+    .litimg_box {
+        position: absolute;
+        height: 70px;
+        top: 419px;
+        left: 60px;
+        
+        li {
+            width: 70px;
+            height: 70px;
+            overflow: hidden;
+            float: left;
+            margin-right: 10px;
+            
+        }
+        #litimgUl {
+            position: absolute;
+            top: 0;
+            padding-left: 10px;
+            z-index: 2;
+            
+           li{
+               img{
+                   display: inline-block;
+                   width: 64px;
+                   height: 64px;
+               }
+           }
+        }
+        
+    }
+    #showDetails {
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        zoom: 1;
+        z-index: 1001;
+        top: 0;
+        left: 430px;
+        overflow: hidden;
+        border: #EDEDED 1px solid;
+        display: none;
+    }
+    .PInfo {
+        position: relative;
+        float: left;
+        width: 658px;
+        margin-left: 30px;
+        font-size: 12px;
+        dt {
+            color: #333;
+            word-wrap: break-word;
+        }
+        dd{
+            margin-top: 10px;
+        }
+        .orig-country {
+            position: relative;
+            font-size: 0;
+            img {
+                width: 24px;
+                height: 24px;
+                vertical-align: middle;
+            }
+            span {
+                font-size: 13px;
+                margin-left: 6px;
+                color: #999;
+                font-weight: 400;
+                vertical-align: middle;
+            }
+            a {
+                @extend span;
+            }
+            .split {
+                font-size: 12px;
+            }
+        }
+        .product-title {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            font-weight: 600;
+            line-height: 26px;
+            span {
+                font-size: 18px;
+            }
+        }
+        .subTit {
+            margin-bottom: 11px;
+            color: #333;
+            line-height: 20px;
+            font-size: 13px;
+        }
+        .m-price-wrap {
+            background-color: #F9F9F9;
+            z-index: 22;
+            margin-bottom: 12px;
+            border-bottom: 1px dotted #DDD;
+            padding-bottom: 4px;
+            height: 70px;
+            line-height: 70px;
+            .m-price {
+                position: relative;
+                padding-top: 5px;
+                border-top: 1px dotted #DDD;
+                z-index: 100;
+                font-size: 0;
+                .m-price-title {
+                    float: left;
+                    line-height: 26px;
+                    margin: 17px 10px;
+                    vertical-align: 4px;
+                    font-size: 12px;
+                }
+                .m-price-cnt {
+                    margin-left: 71px;
+                    .currentPrice {
+                        font-size: 26px;
+                        color: #D22046;
+                        font-weight: bold;
+                        vertical-align: baseline;
+                        line-height: 1;
+                        margin: 8px 0;
+                        span {
+                            font-size: 26px;
+                            font-weight: bold;
+                        }
+                    }
+                    .m-memberLabel {
+                        display: inline-block;
+                        margin-left: 5px;
+                        background-color: #F68587;
+                        height: 18px;
+                        line-height: 18px;
+                        padding: 0 5px;
+                        color: #FFF;
+                        font-size: 12px;
+                        vertical-align: 5px;
+                        border-radius: 2px;
+                    }
+                }
+                
+            }
+            
+        }
+        .postage {
+                position: relative;
+                z-index: 10;
+                .m-line-title {
+                    float: left;
+                    line-height: 24px;
+                }
+            }
+             .msg {
+    margin-left: 85px;
+    .from{
+    line-height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+   
+}
+.m-addrw {
+    display: inline-block;
+    font-size: 0;
+    vertical-align: middle;
+}
+.mr20 {
+    margin-right: 20px;
+}
+.m-addr {
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+     .iptw {
+    position: relative;
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    width: auto;
+    padding: 0 5px;
+    vertical-align: middle;
+    text-align: left;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: -5px;
+}
+.iptmsg {
+    width: 114px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.iptdown {
+     font-family: "iconfont";
+    font-size: 11px;
+    color: #666666;
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    vertical-align: top;
+  
+
+}
+
+
+}
+.m-line-am-30 {
+    height: 24px;
+    line-height: 24px;
+}
+.buybox {
+    position: relative;
+    z-index: 1;
+}
+.ctrnum-wrap {
+       height: 24px;
+    border: 1px solid #dddddd;
+    border-radius: 1px;
+    text-align: center;
+    display: inline-block;
+    input {
+    font-size: 14px;
+    width: 30px;
+    height: 22px;
+    border: 0px;
+    text-align: center;
+    line-height: 24px;
+    padding: 0px;
+}
+
+}
+.buyBtns {
+    display: block;
+    margin-top: 20px;
+    position: relative;
+     a {
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    vertical-align: middle;
+}
+a.m-favbtn-s {
+    height: 28px;
+    line-height: 28px;
+    padding: 0 10px;
+    font-size: 0;
+    text-align: center;
+    border: 1px solid #FFF;
+}
+}
+#buyBtn {
+    display: inline-block;
+    width: 156px;
+    height: 46px;
+    border: 2px solid #D41C44;
+    background-color: #FFECED;
+    color: #D31B44;
+    line-height: 46px;
+    text-align: center;
+   
+}
+
+#buyBtn:hover {
+    color: #F8305B;
+    border-color: #F8305B;
+    background-color: #FFFAF8;
+}
+.buynowonly-wrap {
+    padding: 12px 0 0 0;
+    color: #666;
+    .buynowonly-tip-lis.point {
+    margin-left: 0;
+    li {
+    position: relative;
+    padding-left: 12px;
+    line-height: 18px;
+    font-size: 12px;
+}
+}
+}
+#addCart {
+    width: 156px;
+    height: 50px;
+    line-height: 50px;
+    color: #FFF;
+    background-color: #E31436;
+}
+#addCart:hover {
+    background-color: #F5345E;
+    color: #FFF;
+}
+.shopname {
+    display: inline;
+    vertical-align: initial;
+    color: #E31436;
+}
+
+        .m-line-title {
+            display: inline-block;
+            width: 75px;
+            color: #666;
+            vertical-align: middle;
+            margin-left: 10px;
+            font-size: 12px;
+        }
+    }
+    .m-taxrateline {
+        margin-top: 5px;
+        margin-bottom: -9px;
+        white-space: nowrap;
+        .warn {
+            color: #c30c38;
+        }
+    }
+    .m-taxrateline-2 {
+        position: relative;
+        z-index: 11;
+        margin-top: 0;
+        padding-top: 8px;
+        .taxmsg {
+            height: 32px;
+            line-height: 32px;
+            margin-top: -8px;
+        }
+    }
+}

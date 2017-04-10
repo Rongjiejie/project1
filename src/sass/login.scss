@@ -1,0 +1,225 @@
+@import 'var';
+#docHead{
+    border-bottom: 1px solid #E8E8EA;
+    .logokaola{
+        margin-left:50px;
+    }
+      #docHeadWrap {
+    width: 1000px !important;
+}
+}
+#topimg {
+    left: 500px;
+    height: 100px;
+    width: 504px;
+    background: url(../img/reg.jpg) no-repeat;
+    position: relative;
+
+}
+.login-banner {
+    margin-bottom: 40px;
+    background-color: #F8F8F8;
+    background-position: center top;
+    background-repeat: no-repeat;
+    .m-loginBody {
+    position: relative;
+    width: 1000px;
+    height: 520px;
+    margin: 0 auto;
+    .defaultimg {
+    position: absolute;
+    left: 10px;
+    top: 120px;
+    width: 400px;
+    height: 203px;
+}
+.m-loginWrap {
+    position: absolute;
+    z-index: 2;
+    right: 168px;
+    top: 80px;
+    width: 350px;
+    border: 1px solid #eaeaea;
+    background-color: #fff;
+    .formList {
+    padding: 0 40px 20px;
+    .regtip {
+    text-align: center;
+    color: #666;
+    em{
+        font-size:12px ;
+    }
+    a{
+        font-size: 12px;
+        color: $hover;
+    }
+}
+}
+   
+ h2 {
+    padding: 27px 40px 10px;
+    height: 24px;
+    padding-bottom: 32px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #333;
+    .tit {
+    float: left;
+    font-size: 18px;
+}
+}
+
+}
+}
+}
+
+ .inputbox {
+    z-index: 19;
+    position: relative;
+    margin-bottom: 0px;
+    border: 1px solid #c5cddb;
+    background: #fff;
+    font-size: 12px;
+    line-height: 44px;
+    height: 34px;
+    line-height: 30px;
+    width: 266px;
+    margin: 15px auto;
+}
+.u-logo {
+    width: 34px;
+    padding: 0 9px;
+    float: left;
+    text-align: center;
+    height: 100%;
+    div {
+    width: 16px;
+    height: 18px;
+    margin-top: 8px;
+}
+}
+.u-logo-img1, .u-logo-img2 {
+    background: url(../img/loginimg.png);
+}
+.u-logo-img1 {
+    background-position: 0px 0px;
+}
+.u-logo-img2 {
+    background-position: 1px -30px;
+}
+.u-input {
+    height: 30px;
+    margin: 2px 0;
+    border-left: 1px solid #ccc;
+    position: relative;
+    float: left;
+    input {
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: normal;
+    width: 180px;
+    border: 0;
+    color: #333;
+}
+}
+.m-unlogin {
+    position: relative;
+    top: -3px;
+    left: 41px;
+}
+.forgetpwd {
+    float: right;
+    position: absolute;
+    top: -2px;
+    right: 74px;
+}
+.loginbox {
+    position: relative;
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+.u-loginbtn {
+    display: block;
+    width: 266px;
+    height: 44px;
+    margin: 0 auto;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background: #ddd;
+    font-size: 18px;
+    line-height: 44px;
+    background-color: #E31436;
+    color: #fff;
+}
+.m-nerror {
+   
+    left: 43px;
+    border-radius: 2px;
+    font-size: 0;
+    margin-bottom: 11px;
+    margin-top: 15px;
+    position: relative;
+    display: none;
+   
+
+     div{
+     display: inline-block;
+}
+    .ferrorhead{
+    width: 298px;
+    margin-top: 1px;
+    color: #fa5b5b;
+    font-size: 12px;
+    line-height: 20px;
+    vertical-align: top;
+    word-break: break-all;
+} 
+}
+ .ferrortail{
+ background: url(../img/sprite.png);
+    height: 22px;
+    width: 22px;
+    background-position: -62px -98px;
+   
+}
+.m-thirdpart {
+    border-top: 1px solid #eaeaea;
+    padding: 10px 0 10px 29px;
+    width:100% ;
+    li {
+    float: left;
+    width: 43px;
+    line-height: 22px;
+    height: 22px;
+    overflow: hidden;
+    text-align: center;
+    border-left: 1px solid #eaeaea;
+    }
+    .text {
+    width: 130px;
+    border: none;
+}
+.wx{
+     border: none;
+}
+}
+.w-icon {
+    display: inline-block;
+}
+.w-icon-28 {
+    width: 20px;
+    height: 20px;
+    background-position: -760px -275px;
+}
+.w-icon-28-1 {
+    background-position: -760px -300px;
+}
+.w-icon-28-2 {
+    background-position: -760px -330px;
+}
+.w-icon-28-3 {
+    background-position: -760px -356px;
+}

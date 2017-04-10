@@ -1,0 +1,1382 @@
+@charset "UTF-8";
+/*
+	变量正常情况下只能用在属性值中
+ */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 13px;
+  font-family: "微软雅黑";
+  box-sizing: border-box;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+.cl {
+  zoom: 1;
+}
+
+.cl:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+.u-icn,
+.w-icon,
+#fslist .topbg,
+#fslist .btmbg,
+#rightBar .redpackage,
+.m-slogn,
+.m-slogn-new,
+.m-shopcartnew .wrap {
+  background: url("../img/icon1.png");
+}
+
+input {
+  outline: none;
+}
+
+body {
+  width: 1280px;
+  background: #f2f2f2;
+}
+
+.m-notice {
+  background: #fff;
+  position: relative;
+  text-align: center;
+  color: #333;
+  border: solid 1px #ededee;
+  padding: 10px;
+}
+
+.all {
+  width: 1280px;
+  overflow: hidden;
+}
+
+.all .sep {
+  padding: 0 10px;
+  font-size: 12px;
+  color: #ccc;
+}
+
+.all .w-icon-23 {
+  width: 44px;
+  height: 44px;
+  background-position: -751px 0;
+}
+
+.all .w-icon-23-1 {
+  background-position: -812px 0;
+}
+
+.all .w-icon-23-2 {
+  background-position: -873px 0;
+}
+
+.all .w-icon-23-3 {
+  background-position: -935px 0;
+}
+
+.all .w-icon-24 {
+  width: 32px;
+  height: 32px;
+  background-position: -752px -69px;
+}
+
+.all #topNavWrap {
+  position: relative;
+  z-index: 206;
+  background: #f2f2f2;
+  border-bottom: 1px solid #ededee;
+  color: #666;
+  height: 30px;
+  line-height: 30px;
+}
+
+.all #topNavWrap #topNavLeft {
+  margin-left: 80px;
+  display: block;
+}
+
+.all #topNavWrap #topNavLeft .icon-shouji1 {
+  font-size: 12px;
+  color: #E31436;
+  position: absolute;
+  top: -7px;
+  left: 17px;
+}
+
+.all #topNavWrap #topNavLeft .login {
+  margin-left: 16px;
+}
+
+.all #topNavWrap #topNavLeft .app {
+  padding-left: 30px;
+  position: relative;
+}
+
+.all #topNavWrap #topNavLeft .app .notice {
+  background: #fff;
+  text-align: center;
+  color: #333;
+  border: solid 1px #ededee;
+  position: absolute;
+  left: 11px;
+  top: 35px;
+  padding: 5px 5px 0;
+  display: none;
+}
+
+.all #topNavWrap #topNavLeft .app .txt {
+  display: block;
+  padding: 4px 0;
+  color: #E31436;
+  line-height: 18px;
+  font-weight: normal;
+}
+
+.all #topNavWrap #topNavLeft .app:hover .notice {
+  display: block;
+}
+
+.all #topNavWrap #topNavRight {
+  float: right;
+  position: relative;
+  right: 100px;
+  top: -30px;
+}
+
+.all #topNavWrap #topNavRight .icon-hongqi {
+  color: #E31436;
+}
+
+.all #topNavWrap #topNavRight li {
+  float: left;
+  position: relative;
+}
+
+.all #topNavWrap #topNavRight li a {
+  padding: 0 14px 0 8px;
+}
+
+.all #topNavWrap #topNavRight .message:hover {
+  background: #fff;
+}
+
+.all #topNavWrap #topNavRight .message:hover .mcDropMenu {
+  display: block;
+}
+
+.all #topNavWrap .mcDropMenu {
+  position: absolute;
+  left: -1px;
+  top: 30px;
+  width: 100px;
+  border-top: none !important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+  padding: 4px 15px 12px 14px;
+  display: none;
+  border: solid 1px #ededee;
+  text-align: center;
+  background: #fff;
+}
+
+.all #topNavWrap .mcDropMenu .spliter {
+  display: block;
+  min-width: 88px;
+  border-bottom: 1px solid #ededee;
+  line-height: 0;
+  font-size: 0;
+  margin-left: -10px;
+}
+
+.all #topNavWrap .mcDropMenu .txt {
+  vertical-align: middle;
+}
+
+.all #topNavWrap .mcDropMenu a {
+  display: block;
+  word-wrap: normal;
+  white-space: nowrap;
+  height: 28px;
+  line-height: 28px;
+  cursor: pointer;
+  margin-left: -10px;
+}
+
+.all #topNavWrap a:hover {
+  color: #E31436;
+}
+
+.all #docHead {
+  background: transparent;
+  position: relative;
+  height: 100px;
+  background: #fff;
+  z-index: 103;
+}
+
+.all #docHead .logo {
+  float: left;
+  width: 180px;
+}
+
+.all #docHead .logokaola {
+  position: absolute;
+  left: 0;
+  top: 29px;
+  width: 220px;
+  height: 42px;
+  line-height: 45px;
+  outline: none;
+  cursor: pointer;
+  z-index: 9;
+  background: url("../img/logo.png");
+}
+
+.all #docHead #docHeadWrap {
+  position: relative;
+  zoom: 1;
+  width: 100%;
+  height: 100px;
+  margin: 0 80px;
+}
+
+.all #docHead #docHeadWrap .m-searchiptbox {
+  position: absolute;
+  left: 343px;
+  top: 33px;
+  z-index: 73;
+  top: 24px;
+}
+
+.all #docHead #docHeadWrap #topsearch {
+  width: 510px;
+  height: 36px;
+  padding-left: 1px;
+  background-color: #333;
+  border-radius: 3px;
+}
+
+.all #docHead #docHeadWrap #topsearch .search_wrap {
+  float: left;
+  margin: 2px 1px;
+  padding: 4px 5px 4px 30px;
+  background-color: #fff;
+}
+
+.all #docHead #docHeadWrap #topsearch #topSearchInput {
+  width: 423px;
+  height: 24px;
+  line-height: 24px;
+  border: 0;
+  font-size: 13px;
+}
+
+.all #docHead #docHeadWrap #topsearch #topSearchBtn {
+  display: inline-block;
+  height: 36px;
+  width: 50px;
+  font-size: 19px;
+  line-height: 36px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.all #docHead #docHeadWrap #topsearch .w-icon-27 {
+  background-position: -490px -657px;
+}
+
+.all #docHead #docHeadWrap #topsearch .w-icon-26 {
+  position: absolute;
+  left: 10px;
+  top: 11px;
+  width: 14px;
+  height: 14px;
+  background-position: -466px -667px;
+}
+
+.all #docHead #docHeadWrap .m-suggestlist {
+  line-height: 22px;
+  margin-top: 2px;
+  width: 461px;
+  height: 22px;
+  overflow: hidden;
+}
+
+.all #docHead #docHeadWrap .m-suggestlist li {
+  float: left;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+.all #docHead #docHeadWrap .m-suggestlist li a:hover {
+  text-decoration: underline;
+}
+
+.all #docHead #docHeadWrap .m-suggestlist li .active {
+  color: #E31436;
+}
+
+.all #docHead .m-shopcart {
+  display: block;
+  position: absolute;
+  right: 160px;
+  top: 25px;
+  width: 108px;
+  height: 34px;
+  background-color: #fff;
+  line-height: 34px;
+  font-size: 13px;
+  text-align: center;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+}
+
+.all #docHead .m-shopcart:hover {
+  background-color: #f5f5f5;
+}
+
+.all #topTabBox {
+  background: #fff;
+  z-index: 102;
+  position: relative;
+}
+
+.all #topTabBox .toplevel {
+  position: absolute;
+  z-index: 200;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  width: 160px;
+  text-align: left;
+  background: #000;
+  margin-left: 70px;
+  border-bottom: 2px solid #151515;
+  top: 0;
+}
+
+.all #topTabBox .toplevel span {
+  font-size: 15px;
+  color: #fff;
+}
+
+.all #topTabBox .toplevel .lineicon {
+  display: inline-block;
+  margin: 0 15px 0 27px;
+  width: 15px;
+  height: 12px;
+  overflow: hidden;
+}
+
+.all #topTabBox .toplevel .lineicon i {
+  width: 15px;
+  height: 0;
+  border-top: 2px solid #ddd;
+  display: block;
+  margin-bottom: 3px;
+}
+
+.all #topTabBox .mianSort {
+  position: absolute;
+  z-index: 200;
+  border-bottom: 1px solid #000;
+  margin-top: -1px;
+  margin-left: 70px;
+  width: 160px;
+  text-align: left;
+  color: #fff;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+}
+
+.all #topTabBox .mianSort li {
+  background: rgba(15, 15, 15, 0.82);
+  cursor: pointer;
+  position: relative;
+}
+
+.all #topTabBox .mianSort li img {
+  margin-left: 23px;
+}
+
+.all #topTabBox .mianSort li span {
+  margin-left: 10px;
+}
+
+.all #topTabBox .mianSort li span i {
+  position: absolute;
+  right: 15px;
+  font-size: 12px;
+  top: 1px;
+}
+
+.all #topTabBox #topTab {
+  position: relative;
+  zoom: 1;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  z-index: 102;
+  border-bottom: 2px solid #151515;
+}
+
+.all #topTabBox #topTab #funcTab {
+  position: relative;
+  z-index: 72;
+  height: 40px;
+  float: left;
+  padding-left: 60px;
+  left: 200px;
+}
+
+.all #topTabBox #topTab #funcTab li {
+  float: left;
+  height: 40px;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.all #topTabBox #topTab #funcTab li a {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.all #topTabBox #topTab #funcTab li a:hover {
+  color: #E31436;
+}
+
+.all #topTabBox .imgNav {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+.all #topTabBox .imgNav #list {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.all #topTabBox .imgNav #list li {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: -350px;
+}
+
+.all #topTabBox .imgNav #btn {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  margin-left: -75px;
+}
+
+.all #topTabBox .imgNav #btn li {
+  z-index: 99;
+  width: 20px;
+  height: 20px;
+  background: #000;
+  float: left;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 9px;
+  opacity: 0.5;
+  cursor: pointer;
+  color: #fff;
+}
+
+.all #topTabBox .imgNav #btn li span {
+  line-height: 20px;
+}
+
+.all #topTabBox .imgNav #btn .active {
+  background: #E31436 !important;
+  opacity: 1;
+}
+
+.all #topTabBox .imgNav .button {
+  position: absolute;
+  z-index: 99;
+  top: 50%;
+  height: 60px;
+  width: 60px;
+  margin-top: -30px;
+  color: #888;
+  font-family: monospace;
+  text-align: center;
+  cursor: pointer;
+  visibility: visible;
+}
+
+.all #topTabBox .imgNav .button svg {
+  position: relative;
+  width: auto;
+  margin: auto;
+  height: 100%;
+}
+
+.all #topTabBox .imgNav .button path {
+  fill: currentcolor;
+  display: none;
+}
+
+.all #topTabBox .imgNav .button:hover {
+  color: #fff;
+}
+
+.all #topTabBox .imgNav #prev {
+  left: 220px;
+}
+
+.all #topTabBox .imgNav #next {
+  right: 100px;
+}
+
+.all #topTabBox .imgNav:hover path {
+  display: none;
+}
+
+.all #topTabBox .m-sellpoint {
+  margin-bottom: 20px;
+  height: 44px;
+  border-bottom: 1px solid #EAEAEA;
+  background-color: #fff;
+}
+
+.all #topTabBox .m-sellpoint .sellpoint {
+  float: left;
+  height: 44px;
+  line-height: 44px;
+  margin-left: 100px;
+}
+
+.all #topTabBox .m-sellpoint .itm {
+  float: left;
+  margin-right: 40px;
+  color: #999;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.all #topTabBox .m-sellpoint .itm:hover {
+  color: #E31436;
+}
+
+.all #topTabBox .m-sellpoint i {
+  margin-right: 7px;
+  font-size: 22px;
+  vertical-align: -3px;
+}
+
+.all #topTabBox .m-sellpoint .download {
+  float: right;
+  color: #E01F35;
+  line-height: 44px;
+  color: #E31436;
+  margin-right: 40px;
+}
+
+.all #topTabBox .m-sellpoint .download a {
+  color: #E31436;
+  font-size: 12px;
+}
+
+.all #topTabBox .m-sellpoint .download .phone {
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.all .navPoster {
+  width: 100%;
+  margin: 0 99px;
+}
+
+.all .navPoster li {
+  float: left;
+  width: 265px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.all .fixFooter, .all ._fixFooter {
+  position: absolute;
+  bottom: -170px;
+  right: 0;
+  z-index: 1000;
+}
+
+.all .fixFooter li a, .all ._fixFooter li a {
+  display: block;
+  width: 58px;
+  height: 48px;
+  padding: 10px 0 0;
+  border-bottom: 1px solid #eaeaea;
+  background: #fff;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.all .fixFooter li a:hover, .all ._fixFooter li a:hover {
+  color: #E31436;
+}
+
+.all .fixFooter li .txt, .all ._fixFooter li .txt {
+  display: block;
+  font-size: 12px;
+}
+
+.all ._fixFooter {
+  position: fixed;
+  top: 50px;
+}
+
+.all .LoutiNav, .all ._LoutiNav {
+  position: absolute;
+  bottom: -562px;
+  left: 0;
+  z-index: 1000;
+}
+
+.all .LoutiNav .channel, .all ._LoutiNav .channel {
+  border: 1px solid #eaeaea;
+  border-bottom: none;
+  background: #fff;
+  margin-top: -10px;
+}
+
+.all .LoutiNav .channel a:hover, .all ._LoutiNav .channel a:hover {
+  color: #E31436;
+  background-color: #f6f6f6;
+}
+
+.all .LoutiNav .channel li a, .all ._LoutiNav .channel li a {
+  display: block;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.all ._LoutiNav {
+  position: fixed !important;
+  top: 50px;
+}
+
+.all #contentNav {
+  position: relative;
+  zoom: 1;
+  width: 1085px;
+  margin: 0 auto;
+  min-height: 600px;
+}
+
+.all #contentNav ul {
+  box-shadow: none;
+  text-align: center;
+  background: #fff;
+}
+
+.all #contentNav h2 .big {
+  margin-right: 10px;
+}
+
+.all #contentNav .w-tit1-1 {
+  font-size: 14px;
+  color: #999;
+  position: relative;
+  zoom: 1;
+}
+
+.all #contentNav .w-tit1-1 .big {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.all #contentNav .w-tit1 {
+  line-height: 32px;
+  margin: 37px 0 10px;
+}
+
+.all #contentNav .w-tit1 .big {
+  font-size: 22px;
+  color: #333;
+}
+
+.all #contentNav .more {
+  position: absolute;
+  top: 6px;
+  right: 0;
+  color: #333;
+  font-weight: normal;
+}
+
+.all #contentNav .tit {
+  position: relative;
+  font-size: 14px;
+  margin: 37px 0 10px;
+  color: #999;
+}
+
+.all #contentNav .tit .big {
+  margin-right: 10px;
+  font-size: 22px;
+  color: #333;
+  font-weight: bold;
+}
+
+.all #contentNav .cnt {
+  border-top: 2px solid #333;
+}
+
+.all #contentNav .cnt .goodslist {
+  float: left;
+  width: 868px;
+  border-left: 1px solid #eaeaea;
+}
+
+.all #contentNav .cnt .goodslist .goods {
+  position: relative;
+  float: left;
+  width: 433px;
+  height: 188px;
+  border-right: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  background-color: #fff;
+}
+
+.all #contentNav .cnt .goodslist .goods .detail {
+  position: relative;
+  float: right;
+  margin-right: 20px;
+  width: 205px;
+  height: 188px;
+}
+
+.all #contentNav .cnt .goodslist .goods .detail .intro {
+  margin: 20px 0 6px;
+  height: 21px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  z-index: 500;
+}
+
+.all #contentNav .cnt .goodslist .goods .detail .intro a {
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.all #contentNav .cnt .goodslist .goods .shortTitle {
+  overflow: hidden;
+  height: 40px;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+.all #contentNav .cnt .goodslist .goods .shortTitle a {
+  line-height: 20px;
+  overflow: hidden;
+  font-size: 12px;
+  color: #666;
+  font-weight: normal;
+}
+
+.all #contentNav .cnt .goodslist .goods .price {
+  margin: 14px 0 2px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #E11935;
+}
+
+.all #contentNav .cnt .goodslist .goods .price span {
+  margin-left: 8px;
+  font-size: 14px;
+  font-weight: normal;
+  color: #999;
+}
+
+.all #contentNav .cnt .goodslist .goods .price del {
+  font-size: 14px;
+  font-weight: normal;
+  color: #999;
+}
+
+.all #contentNav .cnt .goodslist .process {
+  position: relative;
+  width: 100px;
+  height: 18px;
+  line-height: 18px;
+  text-align: left;
+  font-size: 12px;
+  color: #DE2634;
+  border: 1px solid #F3C7C7;
+  overflow: hidden;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  text-align: center;
+}
+
+.all #contentNav .cnt .goodslist .btn {
+  display: inline-block;
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+  width: 78px;
+  height: 26px;
+  line-height: 26px;
+  border: 1px solid #DE2634;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  background-color: #DE2634;
+  text-decoration: none;
+}
+
+.all #contentNav .cnt .goodslist .btn:hover {
+  opacity: 0.85 !important;
+}
+
+.all #contentNav .cnt .aside {
+  float: right;
+  width: 221px;
+  height: 378px;
+  margin-left: -20px;
+}
+
+.all #contentNav .itmBox {
+  width: 100%;
+  overflow: hidden;
+}
+
+.all #contentNav .itmBox .itmWrap {
+  margin: 0 -1px;
+  height: 461px;
+  overflow: hidden;
+}
+
+.all #contentNav .itmBox .itmWrap .itm-brand {
+  background-color: #cbdded;
+}
+
+.all #contentNav .itmBox .itmWrap .itm-brand .desc {
+  padding: 0 15px;
+  font-size: 14px;
+  color: #000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.all #contentNav .itmBox .itmWrap .itm-brand .profix {
+  margin-top: 3px;
+  font-size: 18px;
+  color: #000;
+}
+
+.all #contentNav .itmBox .itmWrap .itm-brand .profix:hover {
+  color: #E31436;
+}
+
+.all #contentNav .itmBox .itmWrap .itm-brand .logo {
+  margin: 40px 0 16px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.all #contentNav .itmBox .itmWrap .itm-brand a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.all #contentNav .itmBox .itmWrap .itm-pic {
+  border-left-color: #cbdded;
+}
+
+.all #contentNav .itmBox .itmWrap .itm-pic img {
+  margin-top: 24px;
+  width: 100%;
+}
+
+.all #contentNav .itmBox .itmWrap .itm {
+  float: left;
+  width: 181px;
+  height: 230px;
+  font-size: 12px;
+  border: 1px solid #f0f0f0;
+  border-width: 0 0 1px 1px;
+}
+
+.all #contentNav .itmBox .itmWrap .itm-goods .tit {
+  display: block;
+  margin: 7px 12px;
+  width: 157px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #333;
+  font-size: 12px;
+}
+
+.all #contentNav .itmBox .itmWrap .itm-goods .cur {
+  color: #e31436;
+}
+
+.all #contentNav .itmBox .itmWrap .itm-goods .cur b {
+  margin-left: 3px;
+  font-size: 16px;
+}
+
+.all #contentNav .itmBox .itmWrap .itm-goods .mkt {
+  margin-left: 10px;
+  color: #999;
+}
+
+.all #contentNav .f3 .cnt {
+  overflow: hidden;
+}
+
+.all #contentNav .f3 .fixedBrandWrap {
+  position: relative;
+  float: left;
+  margin-right: -181px;
+  width: 181px;
+  overflow: hidden;
+}
+
+.all #contentNav .f3 .fixedBrandWrap .fixedBrand {
+  position: relative;
+  width: 181px;
+  height: 273px;
+}
+
+.all #contentNav .f3 .fixedBrandWrap .fixedBrand .itm {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 181px;
+  height: 100%;
+  text-align: center;
+}
+
+.all #contentNav .f3 .fixedBrandWrap .fixedBrand .name {
+  padding-top: 25px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.all #contentNav .f3 .fixedBrandWrap .fixedBrand .txt {
+  height: 92px;
+  background-color: #151515;
+  color: #fff;
+}
+
+.all #contentNav .f3 .recomBrand {
+  float: left;
+  margin: 0 -1px 0 181px;
+}
+
+.all #contentNav .f3 .recomBrand .itm:hover .actions {
+  display: block;
+}
+
+.all #contentNav .f3 .recomBrand .itm {
+  position: relative;
+  float: left;
+  width: 181px;
+  height: 136px;
+  border-right: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+  overflow: hidden;
+}
+
+.all #contentNav .f3 .recomBrand .desc {
+  margin: 10px -90px 0;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.all #contentNav .f3 .recomBrand .follow {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 58px;
+  height: 16px;
+  line-height: 16px;
+  color: #fff;
+  border: 1px solid #fff;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.all #contentNav .f3 .recomBrand .actions {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: alpha(opacity=0);
+  transition: all 0.3s ease;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+
+.all #contentNav .f3 .recomBrand .followers {
+  margin: 45px 0 6px;
+  color: #fff;
+}
+
+.all #contentNav .f3 .recomBrand .enter {
+  display: block;
+  margin: 0 auto;
+  width: 76px;
+  height: 20px;
+  line-height: 20px;
+  color: #fff;
+  background-color: #e31436;
+  text-decoration: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.all #contentNav .w-logolist {
+  margin: 10px 0 0;
+  border: 1px solid #eaeaea;
+  line-height: 108px;
+  background: #fff;
+  height: 108px;
+  overflow: hidden;
+}
+
+.all #contentNav .w-logolist .txt {
+  float: left;
+  width: 118px;
+  font-size: 15px;
+  color: #333;
+  font-weight: bold;
+  text-indent: 30px;
+}
+
+.all #contentNav .floor-cont ul {
+  background: none;
+}
+
+.all #contentNav .floor-cont .w-tit1 {
+  position: relative;
+}
+
+.all #contentNav .floor-cont .w-taglist, .all #contentNav .floor-cont .tit {
+  float: left;
+  font-size: 14px;
+  color: #999;
+}
+
+.all #contentNav .floor-cont .w-taglist li, .all #contentNav .floor-cont .tit li {
+  float: left;
+}
+
+.all #contentNav .floor-cont .tit {
+  margin-right: 20px;
+}
+
+.all #contentNav .floor-cont .cont {
+  border: 1px solid #eaeaea;
+  background: #fff;
+  border-top: 2px solid #333;
+  border-left: 0;
+}
+
+.all #contentNav .floor-cont .cont .partl, .all #contentNav .floor-cont .cont .partm {
+  float: left;
+  position: relative;
+  zoom: 1;
+}
+
+.all #contentNav .floor-cont .cont .partl .w-secondlist, .all #contentNav .floor-cont .cont .partm .w-secondlist {
+  position: absolute;
+  left: 26px;
+  top: 24px;
+}
+
+.all #contentNav .floor-cont .cont .partl .w-secondlist li, .all #contentNav .floor-cont .cont .partm .w-secondlist li {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+.all #contentNav .floor-cont .cont .partl .w-secondlist li .txt, .all #contentNav .floor-cont .cont .partm .w-secondlist li .txt {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  width: 58px;
+  height: 36px;
+  overflow: hidden;
+  line-height: 18px;
+  font-size: 12px;
+}
+
+.all #contentNav .floor-cont .cont .partl .w-secondlist li a, .all #contentNav .floor-cont .cont .partm .w-secondlist li a {
+  display: block;
+  height: 55px;
+  padding: 11px 0;
+  overflow: hidden;
+  font-size: 12px;
+  color: #333;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.all #contentNav .floor-cont .cont .partm {
+  width: 600px;
+}
+
+.all #contentNav .floor-cont .cont .partm .w-activlist li {
+  float: left;
+  text-align: center;
+  border: 1px solid #eaeaea;
+  border-width: 0 1px 1px 0;
+  width: 291px;
+  height: 222px;
+}
+
+.all #contentNav .floor-cont .cont .partm .w-activlist li .tit {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  margin: 0 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #000;
+  display: block;
+}
+
+.all #contentNav .floor-cont .cont .partm .w-activlist li .desc {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 10px 14px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.all #contentNav .floor-cont .cont .partm .w-activlist li li a {
+  width: 299px;
+  display: block;
+  padding: 20px 0 0;
+  height: 200px;
+}
+
+.all #contentNav .floor-cont .cont .party {
+  float: left;
+  position: relative;
+  zoom: 1;
+  margin-left: -20px;
+  width: 200px;
+}
+
+.all #btmlist {
+  padding: 40px 0;
+  border-bottom: 1px solid #eaeaea;
+  zoom: 1;
+}
+
+.all #btmlist li {
+  float: left;
+  width: 191px;
+  margin-left: 94px;
+}
+
+.all #btmlist li i {
+  float: left;
+  margin: 0 12px 0 0;
+}
+
+.all #btmlist li .tit {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.all #btmlist li .desc {
+  display: block;
+  line-height: 22px;
+}
+
+.all .footBgWrap {
+  margin-top: 70px;
+  background: #fff;
+  border-top: 1px solid #eaeaea;
+}
+
+.all .footBgWrap .box {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.all .footBgWrap #guideList {
+  padding: 40px 0 90px;
+  width: 1085px;
+  margin: 0 auto;
+}
+
+.all .footBgWrap #guideList a {
+  color: #333;
+}
+
+.all .footBgWrap #guideList a:hover {
+  text-decoration: underline;
+}
+
+.all .footBgWrap #guideList li {
+  float: left;
+  width: 135px;
+  height: 128px;
+  text-align: center;
+  border-left: 1px solid #eaeaea;
+}
+
+.all .footBgWrap #guideList li dt {
+  margin: -4px 0 10px;
+}
+
+.all .footBgWrap #guideList li dt em {
+  font-size: 18px;
+  font-weight: normal;
+  margin-left: -12px;
+}
+
+.all .footBgWrap #guideList li dd {
+  line-height: 24px;
+}
+
+.all .footBgWrap #guideList .bd_none {
+  border: none;
+}
+
+.all .footBgWrap #guideList .first {
+  width: 270px;
+}
+
+.all .footBgWrap #guideList .first .logokaola {
+  display: block;
+  width: 220px;
+  height: 42px;
+  line-height: 45px;
+  margin-bottom: 20px;
+  outline: none;
+  cursor: pointer;
+  z-index: 9;
+  margin-left: 30px;
+  background: url("../img/logo1.png");
+}
+
+.all .footBgWrap #guideList .focuson {
+  height: 32px;
+}
+
+.all .footBgWrap #guideList .focuson .label, .all .footBgWrap #guideList .focuson .itm {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.all .footBgWrap #guideList .focuson .m-notice {
+  position: absolute;
+  left: -44px;
+  top: 42px;
+  display: none;
+  z-index: 10;
+}
+
+.all .footBgWrap #guideList .itm {
+  position: relative;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.all .footBgWrap #guideList a:hover .m-notice {
+  display: block;
+}
+
+.all .footBgWrap #guideList .last span {
+  display: block;
+}
+
+.all #aboutNEST {
+  position: relative;
+  padding: 20px 0;
+  background: #333;
+  line-height: 26px;
+  text-align: center;
+  color: #c2c2c2;
+}
+
+.all #aboutNEST a {
+  color: #c2c2c2;
+  font-size: 12px;
+}
+
+.all #aboutNEST a:hover {
+  text-decoration: underline;
+}
+
+.all #aboutNEST .m-license {
+  margin-left: 20px;
+  font-size: 12px;
+}
+
+.all #aboutNEST .m-license img {
+  margin-top: -2px;
+  vertical-align: middle;
+}
+
+.all #aboutNEST #KXYZ img {
+  margin-top: 5px;
+  border-radius: 5px;
+  width: 80px;
+  height: 30px;
+}
+
+.all #aboutNEST .u-shield img {
+  width: 27px;
+  height: 30px;
+}

@@ -1,0 +1,20 @@
+/*
+	变量正常情况下只能用在属性值中
+ */
+
+$maxwidth:1280px !default;
+// 主颜色
+$mainColor:#666 !default;
+
+// 默认字体大小
+$fot:14px !default;
+$pos:relative !default;
+$fl:left !default;
+$_fl:right !default;
+$_pos:absolute !default;
+$hover:#E31436 !default;
+$dis:block;
+$_dis:none;         
+$box:border-box;
+$bodc:#ededee;
+$bgcolor:#fff;

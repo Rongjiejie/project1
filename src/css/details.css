@@ -1,0 +1,436 @@
+.all {
+  background: #fff;
+}
+
+.all .fixFooter {
+  position: fixed !important;
+  bottom: 40%;
+  right: 0;
+  z-index: 1000;
+}
+
+#showImgBox img {
+  width: 400px;
+  height: 400px;
+}
+
+.f-fl {
+  float: left;
+}
+
+.mainWrap {
+  width: 1090px;
+  font-size: 14px;
+  margin: 0 auto;
+  z-index: 9;
+  border-top: 1px solid #E8E8E8;
+  position: relative;
+  padding: 10px 0 0;
+}
+
+.mainWrap .active {
+  border: 3px solid #F5345E;
+}
+
+.mainWrap .crumbs {
+  color: #999;
+  margin-top: 0;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #DDD;
+  font-size: 13px;
+  margin-bottom: 40px;
+  line-height: 16px;
+}
+
+.mainWrap .crumbs span.crumbs-title, .mainWrap .crumbs .PInfo .orig-country a.crumbs-title, .mainWrap .PInfo .orig-country .crumbs a.crumbs-title {
+  display: inline-block;
+  max-width: 500px;
+  color: #999;
+  vertical-align: middle;
+}
+
+.mainWrap .m-shopname {
+  float: right;
+  color: #666;
+  font-size: 0;
+}
+
+.mainWrap .m-shopname .u-jxtag {
+  margin-right: 4px;
+  padding: 1px 0;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.mainWrap .PImgBox {
+  float: left;
+  width: 402px;
+  height: 488px;
+  position: relative;
+  display: inline;
+  z-index: 1000;
+}
+
+.mainWrap .litimg_box {
+  position: absolute;
+  height: 70px;
+  top: 419px;
+  left: 60px;
+}
+
+.mainWrap .litimg_box li {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  float: left;
+  margin-right: 10px;
+}
+
+.mainWrap .litimg_box #litimgUl {
+  position: absolute;
+  top: 0;
+  padding-left: 10px;
+  z-index: 2;
+}
+
+.mainWrap .litimg_box #litimgUl li img {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+}
+
+.mainWrap #showDetails {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  zoom: 1;
+  z-index: 1001;
+  top: 0;
+  left: 430px;
+  overflow: hidden;
+  border: #EDEDED 1px solid;
+  display: none;
+}
+
+.mainWrap .PInfo {
+  position: relative;
+  float: left;
+  width: 658px;
+  margin-left: 30px;
+  font-size: 12px;
+}
+
+.mainWrap .PInfo dt {
+  color: #333;
+  word-wrap: break-word;
+}
+
+.mainWrap .PInfo dd {
+  margin-top: 10px;
+}
+
+.mainWrap .PInfo .orig-country {
+  position: relative;
+  font-size: 0;
+}
+
+.mainWrap .PInfo .orig-country img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+.mainWrap .PInfo .orig-country span, .mainWrap .PInfo .orig-country a {
+  font-size: 13px;
+  margin-left: 6px;
+  color: #999;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.mainWrap .PInfo .orig-country .split {
+  font-size: 12px;
+}
+
+.mainWrap .PInfo .product-title {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.mainWrap .PInfo .product-title span, .mainWrap .PInfo .product-title .orig-country a, .mainWrap .PInfo .orig-country .product-title a {
+  font-size: 18px;
+}
+
+.mainWrap .PInfo .subTit {
+  margin-bottom: 11px;
+  color: #333;
+  line-height: 20px;
+  font-size: 13px;
+}
+
+.mainWrap .PInfo .m-price-wrap {
+  background-color: #F9F9F9;
+  z-index: 22;
+  margin-bottom: 12px;
+  border-bottom: 1px dotted #DDD;
+  padding-bottom: 4px;
+  height: 70px;
+  line-height: 70px;
+}
+
+.mainWrap .PInfo .m-price-wrap .m-price {
+  position: relative;
+  padding-top: 5px;
+  border-top: 1px dotted #DDD;
+  z-index: 100;
+  font-size: 0;
+}
+
+.mainWrap .PInfo .m-price-wrap .m-price .m-price-title {
+  float: left;
+  line-height: 26px;
+  margin: 17px 10px;
+  vertical-align: 4px;
+  font-size: 12px;
+}
+
+.mainWrap .PInfo .m-price-wrap .m-price .m-price-cnt {
+  margin-left: 71px;
+}
+
+.mainWrap .PInfo .m-price-wrap .m-price .m-price-cnt .currentPrice {
+  font-size: 26px;
+  color: #D22046;
+  font-weight: bold;
+  vertical-align: baseline;
+  line-height: 1;
+  margin: 8px 0;
+}
+
+.mainWrap .PInfo .m-price-wrap .m-price .m-price-cnt .currentPrice span, .mainWrap .PInfo .m-price-wrap .m-price .m-price-cnt .currentPrice .orig-country a, .mainWrap .PInfo .orig-country .m-price-wrap .m-price .m-price-cnt .currentPrice a {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.mainWrap .PInfo .m-price-wrap .m-price .m-price-cnt .m-memberLabel {
+  display: inline-block;
+  margin-left: 5px;
+  background-color: #F68587;
+  height: 18px;
+  line-height: 18px;
+  padding: 0 5px;
+  color: #FFF;
+  font-size: 12px;
+  vertical-align: 5px;
+  border-radius: 2px;
+}
+
+.mainWrap .PInfo .postage {
+  position: relative;
+  z-index: 10;
+}
+
+.mainWrap .PInfo .postage .m-line-title {
+  float: left;
+  line-height: 24px;
+}
+
+.mainWrap .PInfo .msg {
+  margin-left: 85px;
+}
+
+.mainWrap .PInfo .msg .from {
+  line-height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+
+.mainWrap .PInfo .m-addrw {
+  display: inline-block;
+  font-size: 0;
+  vertical-align: middle;
+}
+
+.mainWrap .PInfo .mr20 {
+  margin-right: 20px;
+}
+
+.mainWrap .PInfo .m-addr {
+  position: relative;
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+}
+
+.mainWrap .PInfo .m-addr .iptw {
+  position: relative;
+  display: inline-block;
+  height: 18px;
+  line-height: 18px;
+  width: auto;
+  padding: 0 5px;
+  vertical-align: middle;
+  text-align: left;
+  border: 1px solid #cccccc;
+  cursor: pointer;
+  font-size: 12px;
+  margin-top: -5px;
+}
+
+.mainWrap .PInfo .m-addr .iptmsg {
+  width: 114px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.mainWrap .PInfo .m-addr .iptdown {
+  font-family: "iconfont";
+  font-size: 11px;
+  color: #666666;
+  display: inline-block;
+  height: 18px;
+  line-height: 18px;
+  vertical-align: top;
+}
+
+.mainWrap .PInfo .m-line-am-30 {
+  height: 24px;
+  line-height: 24px;
+}
+
+.mainWrap .PInfo .buybox {
+  position: relative;
+  z-index: 1;
+}
+
+.mainWrap .PInfo .ctrnum-wrap {
+  height: 24px;
+  border: 1px solid #dddddd;
+  border-radius: 1px;
+  text-align: center;
+  display: inline-block;
+}
+
+.mainWrap .PInfo .ctrnum-wrap input {
+  font-size: 14px;
+  width: 30px;
+  height: 22px;
+  border: 0px;
+  text-align: center;
+  line-height: 24px;
+  padding: 0px;
+}
+
+.mainWrap .PInfo .buyBtns {
+  display: block;
+  margin-top: 20px;
+  position: relative;
+}
+
+.mainWrap .PInfo .buyBtns a {
+  display: inline-block;
+  margin-right: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.mainWrap .PInfo .buyBtns a.m-favbtn-s {
+  height: 28px;
+  line-height: 28px;
+  padding: 0 10px;
+  font-size: 0;
+  text-align: center;
+  border: 1px solid #FFF;
+}
+
+.mainWrap .PInfo #buyBtn {
+  display: inline-block;
+  width: 156px;
+  height: 46px;
+  border: 2px solid #D41C44;
+  background-color: #FFECED;
+  color: #D31B44;
+  line-height: 46px;
+  text-align: center;
+}
+
+.mainWrap .PInfo #buyBtn:hover {
+  color: #F8305B;
+  border-color: #F8305B;
+  background-color: #FFFAF8;
+}
+
+.mainWrap .PInfo .buynowonly-wrap {
+  padding: 12px 0 0 0;
+  color: #666;
+}
+
+.mainWrap .PInfo .buynowonly-wrap .buynowonly-tip-lis.point {
+  margin-left: 0;
+}
+
+.mainWrap .PInfo .buynowonly-wrap .buynowonly-tip-lis.point li {
+  position: relative;
+  padding-left: 12px;
+  line-height: 18px;
+  font-size: 12px;
+}
+
+.mainWrap .PInfo #addCart {
+  width: 156px;
+  height: 50px;
+  line-height: 50px;
+  color: #FFF;
+  background-color: #E31436;
+}
+
+.mainWrap .PInfo #addCart:hover {
+  background-color: #F5345E;
+  color: #FFF;
+}
+
+.mainWrap .PInfo .shopname {
+  display: inline;
+  vertical-align: initial;
+  color: #E31436;
+}
+
+.mainWrap .PInfo .m-line-title {
+  display: inline-block;
+  width: 75px;
+  color: #666;
+  vertical-align: middle;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.mainWrap .m-taxrateline {
+  margin-top: 5px;
+  margin-bottom: -9px;
+  white-space: nowrap;
+}
+
+.mainWrap .m-taxrateline .warn {
+  color: #c30c38;
+}
+
+.mainWrap .m-taxrateline-2 {
+  position: relative;
+  z-index: 11;
+  margin-top: 0;
+  padding-top: 8px;
+}
+
+.mainWrap .m-taxrateline-2 .taxmsg {
+  height: 32px;
+  line-height: 32px;
+  margin-top: -8px;
+}
